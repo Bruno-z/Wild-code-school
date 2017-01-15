@@ -8,6 +8,14 @@ $('#elsa').delay(1000).fadeOut(2500, function(){
 $('h2').hover(function(){
 	$(this).css('color', 'red');
 });
+$('em').hover(function(){
+	$(this).css('color', 'goldenrod');
+});
+
+
+
+
+
 
 //
 $('p').on( 'click', function () {
@@ -19,4 +27,13 @@ $('#elsa').on('mouseover', function() {
 	$('#citation1').css('opacity', '1')
 	$('#citation1').css('transition', '2s linear')
 });
+
+
+
+
+
+
+
+
+
 
