@@ -1,0 +1,7 @@
+Everything before the line containing only '---' will not be parsed
+
+---
+ name: wild school challenge project demo
+ description: 
+ authors:
+   - Zilio Bruno
