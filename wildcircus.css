@@ -1,0 +1,179 @@
+@font-face{ 
+	@font-face{
+  font-family:'EraserRegular-webfont' ;
+  src: url('EraserRegular-webfont.eot');
+  src: url('EraserRegular-webfont.eot?iefix') format('eot'), 
+  url('EraserRegular-webfont.woff') format('woff'), 
+  url('EraserRegular-webfont.ttf') format('truetype'),
+  url('EraserRegular-webfont.svg#webfont') format('svg');
+}
+}
+
+em{
+	font-style: normal;
+	text-decoration: underline;
+	color: lightgoldenrodyellow;
+	font-size: 20px; /* Paragraphes de 14 pixels */
+	
+}
+
+ul{ display: flex;
+	flex-direction: row;
+
+
+}
+nav{padding: 3vh 3vw 3vh 3vw;
+	margin-bottom: 25vh;
+
+}
+
+li{
+	margin-left:5%;
+	margin-right: 5%;
+}
+body{
+	margin: 0;	
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: black;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'lilly';
+	position: absolute;
+	
+}
+p{color: white;
+  font-size: 25px; /* Paragraphes de 14 pixels */
+
+}
+
+header{
+	display: flex;
+	text-align: center;
+	color: gold;
+	height: 100vh;
+}
+
+h1{
+	font-size: 8vh;
+	text-align: center;
+	color: lightgoldenrodyellow;
+}
+
+.allSections{
+	display: flex;
+	flex-direction: column;
+}
+
+.allsections, *{
+	margin: auto;
+
+}
+
+#section0{
+	background-image: url("images/background02.jpg");
+   background-size: cover;
+   background-position: center;
+   background-color: transparent;
+	padding: 10vh 10vw 10vh 10vw;
+	margin-bottom: 50vh;
+}
+
+#section1{
+	background-image: url("images/background09.jpg");
+   background-size: cover;
+   background-position: center;
+   background-color: transparent;
+	margin-bottom: 50vh;
+	padding: 10vh 10vw 10vh 10vw;
+
+
+}
+
+#section2{
+	background-image: url("images/img1.jpg");
+   background-size: cover;
+   background-position: center;
+   background-color: transparent;
+	background-color: rgba(0,0,0,1);
+	margin-bottom: 50vh;
+	padding: 10vh 10vw 10vh 10vw;
+
+}
+
+#section3{
+	background-image: url("images/dae88.jpg");
+   background-size: cover;
+   background-position: center;
+	background-color: rgba(0,0,0,1);
+	margin-bottom: 50vh;
+	padding: 10vh 10vw 10vh 10vw;
+}
+
+h2{
+	border-bottom: white;
+	margin-bottom: 6vh;
+	font-size: 3.5vh;
+	color: floralwhite;
+}
+h6{
+	color:silver;
+}
+
+.image{
+	border-radius: 100%;
+	height: 50vh;
+	opacity: 0.1;
+	transition: opacity 1s linear;
+	
+	
+}
+
+.image:hover{
+	opacity: 1;
+}
+
+.description{
+	opacity: 0;
+}
+
+
+footer{
+	background-color: rgba(0,0,0,1);
+	text-align: center;
+	padding: 3vh;
+
+
+}
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: lightsteelblue;
+   font-style: italic;
+   font-size: 25px; /* Paragraphes de 14 pixels */
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: darksalmon;
+}
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: #AAA; /* Appliquer une couleur grise */
+
+}
+
+}
+
+.image:hover{
+	opacity: 0.4;
+}
+
+.citation{
+	opacity: 1;
+}
